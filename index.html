@@ -1,0 +1,874 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <!-- SEO Meta Tags -->
+        <meta name="description" content="Your description">
+        <meta name="author" content="Your name">
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+        <meta property="og:site_name" content="" /> <!-- website name -->
+        <meta property="og:site" content="" /> <!-- website link -->
+        <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+        <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+        <!-- Webpage Title -->
+        <title>Webpage Title</title>
+        
+        <!-- Styles -->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link href="css/fontawesome-all.min.css" rel="stylesheet">
+        <link href="css/swiper.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        
+        <!-- Favicon  -->
+        <link rel="icon" href="images/favicon.png">
+    </head>
+    <body data-bs-spy="scroll" data-bs-target="#navbarExample">
+        
+        <!-- Navigation -->
+        <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+            <div class="container">
+
+                <!-- Image Logo -->
+                <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.png" alt="alternative">
+                    ДОНБАССВОДОРЕМОНТ
+                </a> 
+
+                <!-- Text Logo - Use this if you don't have a graphic logo -->
+                <!-- <a class="navbar-brand logo-text" href="index.html">Leno</a> -->
+
+                <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                    <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#header">Главная</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#testimonial">Отзывы</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#features">Услуги</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#vakant">Вакансии</a>
+                        </li>
+                        <!-- <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Контакты</a>
+                        </li> -->
+                    </ul>
+                </div> <!-- end of navbar-collapse -->
+            </div> <!-- end of container -->
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+        <!-- Header -->
+        <header id="header" class="header">
+            <div class="container">
+                <div class="row justify-content-around align-items-end">
+                    <div class="col-lg-4">
+                        <div class="text-container">
+                            <h1 class="h1-medium">Строительные и монтажные <br>работы <span class="replace-me">строительство, расширение, реконструкция, переоборудование</span></h1>
+                            <p class="p-large">Филиал "Управление "ДОНБАССВОДОРЕМОНТ"</p>
+                            <a class="btn-solid-lg" style="cursor: pointer;"  data-bs-toggle="modal" data-bs-target="#detailsModal1">Оставить заявку</a>
+                            <!-- <a class="btn-solid-lg" href="#your-link"><i class="fab fa-google-play"></i>For Android</a> -->
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-4">
+                        <img class="img-fluid" src="images/header-screen.png" alt="alternative">
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </header> <!-- end of header -->
+        <!-- end of header -->
+
+        <!-- Features -->
+        <div class="tabs-1" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">УСЛУГИ</h2>
+                        <div class="p-heading">Строительные и монтажные работы (новое строительство, расширение, реконструкция, переоборудование, ремонт строений и сооружений водоснабжения, зон отдыха, производственных и бытовых помещений)</div>
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+
+                    <!-- Tabs Links -->
+                    <ul class="nav nav-tabs" id="navTabs" role="tablist">
+                        <li class="nav-item">
+                            <a class="nav-link active" id="nav-tab-1" data-bs-toggle="tab" data-bs-target="#tab-1" role="tab" aria-controls="tab-1" aria-selected="true"><i class="fas fa-cog"></i>МОНТАЖ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-2" data-bs-toggle="tab" data-bs-target="#tab-2" role="tab" aria-controls="tab-2" aria-selected="false"><i class="fas fa-anchor"></i>ПОДВОДНО-ТЕХНИЧЕСКИЕ</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="nav-tab-3" data-bs-toggle="tab" data-bs-target="#tab-3" role="tab" aria-controls="tab-3" aria-selected="false"><i class="fas fa-bus"></i>ТРАНСПОРТ</a>
+                        </li>
+                    </ul>
+                    <!-- end of tabs links -->
+
+                    <!-- Tabs Content-->
+                    <div class="tab-content" id="navTabsContent">
+                        
+                        <!-- Tab -->
+                        <div class="tab-pane fade show active" id="tab-1" role="tabpanel" aria-labelledby="nav-tab-1">
+                            <div class="container">
+                                <div class="row">
+                                    
+                                    <!-- Icon Cards Pane -->
+                                    <div class="col-lg-4">
+                                        <ul class="list-unstyled li-space-lg first">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-project-diagram fa-stack-1x"></i>
+                                                        <!-- <i class="fas fa-fill-drip fa-stack-1x"></i> -->
+                                                        <!-- <i class="fas fa-hand-holding-water fa-stack-1x"></i> -->
+                                                        <!-- <i class="fas fa-water fa-stack-1x"></i> -->
+                                                        <!-- <i class="fas fa-shower fa-stack-1x"></i> -->
+                                                        <!-- <i class="fas fa-faucet fa-stack-1x"></i> -->
+                                                        <!-- <i class="far fa-compass fa-stack-1x"></i> -->
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Инженерные сети</h5>
+                                                    <p>Комплексное строительство инженерных сетей</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-cogs fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Монтаж</h5>
+                                                    <p>сварка и монтаж трубопроводов/обвязка</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-share-alt fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Обвязка</h5>
+                                                    <p>Трубная обвязка технологического оборудования</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div> <!-- end of col -->
+                                    <!-- end of icon cards pane -->
+
+                                    <!-- Image Pane -->
+                                    <div class="col-lg-4">
+                                        <img class="img-fluid" src="images/screen-1.jpg" alt="alternative" style="border-radius: 10px;">
+                                    </div> <!-- end of col -->
+                                    <!-- end of image pane -->
+                                    
+                                    <!-- Icon Cards Pane -->
+                                    <div class="col-lg-4">
+                                        <ul class="list-unstyled li-space-lg last">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-share-alt-square fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Сварка</h5>
+                                                    <p>Сварка и монтаж пищевых (в т.ч. Молочных) трубопроводов</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-sort-amount-up-alt fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Насосные</h5>
+                                                    <p>Насосные станции: заводской готовности и под заказ</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-shopping-cart fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Тележки</h5>
+                                                    <p>Промышленные тележки из нержавеющей стали, на заказ</p>
+                                                </div>
+                                            </li>
+                                        </ul> 
+                                    </div> <!-- end of col -->
+                                    <!-- end of icon cards pane -->
+
+                                </div> <!-- end of row -->
+                            </div> <!-- end of container -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-2" role="tabpanel" aria-labelledby="nav-tab-2">
+                            <div class="container">
+                                <div class="row">
+
+                                    <!-- Image Pane -->
+                                    <div class="col-lg-4">
+                                        <img class="img-fluid" src="images/original.jpg" style="border-radius: 10px;" alt="alternative">
+                                    </div> <!-- end of col -->
+                                    <!-- end of image pane -->
+                                    
+                                    <!-- Text And Icon Cards Area -->
+                                    <div class="col-lg-8">
+                                        <h3>Подводно-технические работы</h3>
+                                        <p class="sub-heading">Работы, связанные с обследованием, строительством и ремонтом подводных частей различных гидротехнических сооружений, называются подводно-техническими.</p>
+                                        <ul class="list-unstyled li-space-lg first">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-edit fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Мониторинг</h5>
+                                                    <p>мониторингу подводной части строений</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-exclamation-triangle fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Аварийные ситуации</h5>
+                                                    <p>устранению аварийных ситуаций</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-bolt fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Сварка</h5>
+                                                    <p>сварки под водой</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-cogs fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Демонтаж</h5>
+                                                    <p>демонтаж подводных частей конструкций и подъем мусора</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-exchange-alt fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Траншеи для труб</h5>
+                                                    <p>подготовке траншеи для труб. Прокладке труб по дну. Установке утяжелителей на трубу.</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="far fa-eye fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Визуальный контроль</h5>
+                                                    <p>водолазному обследованию. Проведению визуального контроля</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </div> <!-- end of col -->
+                                    <!-- end of text and icon cards area -->
+
+                                </div> <!-- end of row -->
+                            </div> <!-- end of container -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                        <!-- Tab -->
+                        <div class="tab-pane fade" id="tab-3" role="tabpanel" aria-labelledby="nav-tab-3">
+                            <div class="container">
+                                <div class="row">
+
+                                    <!-- Text And Icon Cards Area -->
+                                    <div class="col-lg-8">
+                                        <ul class="list-unstyled li-space-lg first">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-search fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Поиск перевозчика</h5>
+                                                    <p>Найдите водителя на грузовом авто. Просто и удобно в любое время</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-check fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Выгодные предложения</h5>
+                                                    <p>Выбирайте грузоперевозки по самой низкой цене по городу, региону и стране</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-cubes fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Перевозка любых грузов</h5>
+                                                    <p>Найдутся перевозки на подходящих условиях. Перевозите любые вещи на грузовом транспорте</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <ul class="list-unstyled li-space-lg">
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-file fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Много заказов</h5>
+                                                    <p>На нашем сервисе вы получите множество предложений по грузоперевозкам</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-suitcase fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Выгодные условия</h5>
+                                                    <p>Вы сами определяете стоимость и условия перевозки для грузоотправителей</p>
+                                                </div>
+                                            </li>
+                                            <li class="d-flex">
+                                                <div class="icon">
+                                                    <span class="fa-stack">
+                                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                                        <i class="fas fa-users fa-stack-1x"></i>
+                                                    </span>
+                                                </div>
+                                                <div class="flex-grow-1">
+                                                    <h5>Для частных и юридических лиц</h5>
+                                                    <p>Вы можете работать как частный водитель или юридическое лицо</p>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                        <h3>
+                                            Грузоперевозки по городу, региону и межгороду</h3>
+                                        <p class="sub-heading">Выгодные предложения. Выбирайте грузоперевозки по самой низкой цене по городу, региону и стране. ... Сделки совершаются на прозрачных условиях без посредников. Доступны перевозки любого груза различными видами транспорта.</p>
+                                    </div> <!-- end of col -->
+                                    <!-- end of text and icon cards area -->
+
+                                    <!-- Image Pane -->
+                                    <div class="col-lg-4">
+                                        <img class="img-fluid" src="images/transport.jpg" style="border-radius: 10px;" alt="alternative">
+                                    </div> <!-- end of col -->
+                                    <!-- end of image pane -->
+                                        
+                                </div> <!-- end of row -->
+                            </div> <!-- end of container -->
+                        </div> <!-- end of tab-pane -->
+                        <!-- end of tab -->
+
+                    </div> <!-- end of tab-content -->
+                    <!-- end of tabs content -->
+
+                </div> <!-- end of row --> 
+            </div> <!-- end of container --> 
+        </div> <!-- end of tabs-1 -->
+        <!-- end of features -->
+
+        <!-- Testimonials -->
+        <div class="slider-1 bg-dark-blue" id="testimonial">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Card Slider -->
+                        <div class="slider-container">
+                            <div class="swiper-container card-slider">
+                                <div class="swiper-wrapper">
+                                    
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="card-image" src="images/testimonial-1.jpg" alt="alternative">
+                                            <div class="card-body">
+                                                <p class="testimonial-text">Хочу выразить огромную благодарность. Своевременно помогли устранить причину протечки, что позволило не затопить соседей и не понесло за собой денежных убытков . Спасибо огромное !</p>
+                                                <p class="testimonial-author">Елена Сергеевна</p>
+                                            </div>
+                                        </div>
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+            
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="card-image" src="images/testimonial-5.jpg" alt="alternative">
+                                            <div class="card-body">
+                                                <p class="testimonial-text">У нас когда горячей воды дома не было, я в гневе была. Дозвонилась до оператора. Девушка спокойно отреагировала на мои претензии, а потом меня успокоила и сделала всё возможное чтобы помочь нам. Колл-центром я довольна. Анна кажется звали, спасибо ей</p>
+                                                <p class="testimonial-author">Зинаида</p>
+                                            </div>
+                                        </div>        
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+            
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <div class="card">
+                                            <img class="card-image" src="images/testimonial-2.jpg" alt="alternative">
+                                            <div class="card-body">
+                                                <p class="testimonial-text">Благодарю за качественно выполненную работу!</p>
+                                                <p class="testimonial-author">Дмитрий Игоревич</p>
+                                            </div>
+                                        </div>        
+                                    </div> <!-- end of swiper-slide -->
+                                    <!-- end of slide -->
+                                </div> <!-- end of swiper-wrapper -->
+            
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <!-- end of add arrows -->
+            
+                            </div> <!-- end of swiper-container -->
+                        </div> <!-- end of slider-container -->
+                        <!-- end of card slider -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-1 -->
+        <!-- end of testimonials -->
+
+        <!-- Video -->
+        <div class="basic-1">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading mb-5" style="width: 80%">В строящийся между Ростовской областью и Донбассом канал для снабжения водой донецкого региона пустили воду.</h2>
+                        <!-- <div class="p-heading">В связи со строительством и вводом в эксплуатацию объектов альтернативного источника водоснабжения «Река Дон ‑ канал Северский Донец-Донбасс» в ГУП ДНР «ВОДА ДОНБАССА» открыты вакансии</div> -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-12">
+
+                        <!-- Video Preview -->
+                        <div class="image-container">
+                            <div class="video-wrapper">
+                                <img class="img-fluid" src="images/video-frame.jpg" alt="alternative">
+                                <a class="video-btn" data-bs-toggle="modal" data-bs-target="#videoModal" data-bs-src="https://www.youtube.com/embed/JPWcIQogmoI">
+                                    <span class="video-play-button">
+                                        <span></span>
+                                    </span>
+                                </a>
+                            </div> <!-- end of video-wrapper -->
+                        </div> <!-- end of image-container -->
+                        <!-- end of video preview -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of video -->
+
+        <!-- Video Modal -->
+        <div class="video-modal">
+            <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        <div class="ratio ratio-16x9">
+                            <iframe class="embed-responsive-item" id="video" allow="autoplay"></iframe>
+                        </div>
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+        </div> <!-- end of video-modal -->
+        <!-- end of video modal -->
+
+      <!-- Details 1 -->
+      <div class="basic-2 bg-dark-blue" id="vakant">
+        <div class="container">
+            <h2 class="h2-heading text-center" style="width: 65%">  В ГУП ДНР “ВОДА ДОНБАССА” требуются сотрудники </h2>
+            <div class="row align-items-center">
+                
+                <div class="col-lg-6">
+                    <div class="image-container">
+                        <img class="img-fluid" src="images/vakant-2.png" alt="alternative">
+                    </div> <!-- end of image-container -->
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="text-container">
+                        <h4>ВАКАНСИИ</h4>
+                        <ul>
+                            <li> электромонтер по ремонту и обслуживанию электрооборудования 5-6 разрядов, з/п от 25 057 до 29 479 рос.руб.</li>
+
+                            <li> монтажник наружных трубопроводов 4-5 разрядов, з/п от 22 110 до 25 057 рос.руб.</li>
+                                
+                                <li> маляр 5 разряда, з/п 23 570 рос.руб.</li>
+                                
+                                <li> слесарь-сантехник 5 разряда, з/п 23 769 рос.руб.</li>
+                                
+                                <li> плотник 4 разряда, з/п 20 798 рос.руб.</li>
+                                
+                                <li> грузчик, з/п 13 600 рос.руб.</li>
+                                
+                                <li> бетонщик 3-4 разрядов, з/п от 18 718 до 20 798 рос.руб.</li>
+                                
+                                <li> водитель погрузчика 6 разряда, з/п 32 279 рос.руб.</li>
+                                
+                                <li> машинист (кочегар) котельной 2 разряда, з/п 14 821 рос.руб.</li>
+                                
+                                <li> слесарь-ремонтник 4 разряда, з/п 20 973 рос.руб.</li>
+                        </ul>
+                    </div> <!-- end of text-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of basic-2 -->
+    <!-- end of details 1 -->
+
+        <!-- Details Modal -->
+        <div class="details-modal">
+            <div id="detailsModal1" class="modal fade" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="row">
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <div class="col">
+                                
+                             <!-- Form -->
+        <div class="ex-form-1 pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <p class="mb-5">
+                            Для того, чтобы отправить обращение в форме электронного документа, воспользуйтесь специальной формой. 
+                        </p>
+                        
+                        <!-- Contact Form -->
+                        <form>
+                            <div class="mb-4 form-floating">
+                                <input type="text" class="form-control" id="floatingInput4" required placeholder="Name">
+                                <label for="floatingInput4">Имя</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <input type="email" class="form-control" id="floatingInput5" required placeholder="name@example.com">
+                                <label for="floatingInput5">Email</label>
+                            </div>
+                            <div class="mb-4 form-floating">
+                                <textarea class="form-control" id="floatingTextarea1" required placeholder="Ваше сообщение" rows="6"></textarea>
+                                <label for="floatingTextarea1">Ваше сообщение</label>
+                            </div>
+                            <div class="mb-4 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck2" required>
+                                <label class="form-check-label" for="exampleCheck2">Согласие на обработку персональных данных <a href="privacy.html">Политика конфиденциальности</a></label>
+                            </div>
+                            <button type="submit" class="form-control-submit-button">Отправить</button>
+                        </form>
+                        <!-- end of contact form -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of ex-form-1 -->
+        <!-- end of form -->
+                        </div> <!-- end of row -->
+                    </div> <!-- end of modal-content -->
+                </div> <!-- end of modal-dialog -->
+            </div> <!-- end of modal -->
+        </div> <!-- end of details-modal -->
+        <!-- end of details modal --> 
+
+        <!-- Statistics -->
+        <div class="counter bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <!-- Counter -->
+                        <div class="counter-container">
+                            <div class="counter-cell">
+                                <i class="fas fa-users"></i>
+                                <div data-purecounter-start="0" data-purecounter-end="231" data-purecounter-duration="3" class="purecounter">1</div>
+                                <div class="counter-info">Счастливые клиенты</div>
+                            </div> <!-- end of counter-cell -->
+                            <div class="counter-cell">
+                                <i class="fas fa-smile"></i>
+                                <div data-purecounter-start="0" data-purecounter-end="385" data-purecounter-duration="1.5" class="purecounter">1</div>
+                                <div class="counter-info">Решенные проблемы</div>
+                            </div> <!-- end of counter-cell -->
+                            <div class="counter-cell">
+                                <i class="fas fa-thumbs-up"></i>
+                                <div data-purecounter-start="0" data-purecounter-end="159" data-purecounter-duration="3" class="purecounter">1</div>
+                                <div class="counter-info">Хорошие отзывы</div>
+                            </div> <!-- end of counter-cell -->
+                            <div class="counter-cell">
+                                <i class="fas fa-rocket"></i>
+                                <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3" class="purecounter">1</div>
+                                <div class="counter-info">Оперативных ремонтов</div>
+                            </div> <!-- end of counter-cell -->
+                            
+                        </div> <!-- end of counter-container -->
+                        <!-- end of counter -->
+
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of counter -->
+        <!-- end of statistics -->
+
+        <!-- Screenshots -->
+        <div class="slider-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <h2 class="h2-heading">ГАЛЕРЕЯ</h2>
+                        <hr class="hr-heading">
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+                <div class="row">
+                    <div class="col-lg-12">
+                        
+                        <!-- Image Slider -->
+                        <div class="slider-container">
+                            <div class="swiper-container image-slider">
+                                <div class="swiper-wrapper">
+                                    
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-1.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+                                    
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-2.png" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-3.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-4.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-5.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+                                    
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-6.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-7.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-8.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-9.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+
+                                    <!-- Slide -->
+                                    <div class="swiper-slide">
+                                        <img class="img-fluid img-fluid-slider" src="images/screenshot-10.jpg" alt="alternative">
+                                    </div>
+                                    <!-- end of slide -->
+                                    
+                                </div> <!-- end of swiper-wrapper -->
+
+                                <!-- Add Arrows -->
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                                <!-- end of add arrows -->
+
+                            </div> <!-- end of swiper-container -->
+                        </div> <!-- end of slider-container -->
+                        <!-- end of image slider -->
+                        
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of slider-2 -->
+        <!-- end of screenshots -->
+
+        <!-- Download -->
+        <div class="basic-4">
+            <div class="container">
+                <div class="row" style="align-items: center;">
+                    <div class="col-lg-6">
+                        <div class="text-container">
+                            <h4>Исходя из наших наблюдений, подписанным на нас пользователям воду отключают реже</h4>
+                            <form action="">
+                                <input type="email" placeholder="Email" class="form-control" required style="margin-bottom: 20px;">
+                                <input type="submit" class="btn-solid-lg" value="Подписаться">
+                            </form>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6">
+                        <div class="image-container">
+                            <img class="img-fluid" src="images/subscribe-water.png" alt="alternative">
+                        </div> <!-- end of image-container -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of basic-4 -->
+        <!-- end of download -->
+
+        <!-- Footer -->
+        <div class="footer bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="footer-col first">
+                            <div class="footer-wrapper" style="display: flex;">
+                                <a class="navbar-brand logo-image" href="index.html">
+                                    <img src="images/logo.png" alt="alternative" style="width: 60px;">
+                                </a>
+                                <div class="address">
+                                    <h6>Адрес офиса</h6>
+                                    <p>283023, г. Донецк, пр. Павших Коммунаров, 114а</p>
+                                </div>
+                            </div>
+                        </div> <!-- end of footer-col -->
+                        <div class="footer-col second">
+                            <h6>Телефоны</h6>
+                            <p>приемная - (062) 307-57-05</p>
+                            <p>факс - (062) 307-57-05</p>
+                        </div> <!-- end of footer-col -->
+                        <div class="footer-col third">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-pinterest-p fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <i class="fas fa-circle fa-stack-2x"></i>
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <p class="p-small" style="text-align: center;">Директор: Рябцев Вадим Петрович <a href="mailto:contact@site.com"><strong>dbvr@vodadonbassa.ru</strong></a></p>
+                        </div> <!-- end of footer-col -->
+                    </div> <!-- end of col -->
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->  
+        <!-- end of footer -->
+
+        <!-- Copyright -->
+        <div class="copyright bg-dark-blue">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <p class="p-small">Copyright © <a href="#your-link">Филиал "Управление "ДОНБАССВОДОРЕМОНТ"</a></p>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright --> 
+        <!-- end of copyright -->
+
+        <!-- Back To Top Button -->
+        <button onclick="topFunction()" id="myBtn">
+            <img src="images/up-arrow.png" alt="alternative">
+        </button>
+        <!-- end of back to top button -->
+            
+        <!-- Scripts -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+        <script src="js/replaceme.min.js"></script> <!-- ReplaceMe for rotating text -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    </body>
+</html>
